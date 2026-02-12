@@ -1,0 +1,78 @@
+{
+  "name": "desktop-assistant",
+  "version": "1.0.0",
+  "description": "AI-powered Desktop Assistant using GitHub Copilot SDK",
+  "type": "module",
+  "main": "dist/main.cjs",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "npm run build && electron .",
+    "dev": "npm run build && electron .",
+    "watch": "tsc -w",
+    "electron": "electron .",
+    "dist": "npm run build && electron-builder --win",
+    "dist:portable": "npm run build && electron-builder --win portable"
+  },
+  "build": {
+    "appId": "com.copilot.desktop-assistant",
+    "productName": "Desktop Assistant",
+    "directories": {
+      "buildResources": "build-resources",
+      "output": "release"
+    },
+    "files": [
+      "dist/**/*",
+      "renderer/**/*",
+      "node_modules/**/*",
+      "!node_modules/.cache/**/*"
+    ],
+    "win": {
+      "target": [
+        {
+          "target": "portable",
+          "arch": ["x64"]
+        }
+      ],
+      "icon": "build-resources/icon.ico",
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": false,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "Desktop Assistant"
+    },
+    "portable": {
+      "artifactName": "${productName}-Portable.${ext}"
+    }
+  },
+  "keywords": [
+    "copilot",
+    "assistant",
+    "desktop",
+    "ai",
+    "electron"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@azure/identity": "^4.13.0",
+    "@electron/remote": "^2.1.3",
+    "@github/copilot-sdk": "^0.1.21",
+    "@microsoft/workiq": "^0.2.8",
+    "@types/node": "^25.0.10",
+    "node-powershell": "^5.0.1",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "electron": "^40.0.0",
+    "electron-builder": "^26.4.0",
+    "esbuild": "^0.27.2",
+    "png-to-ico": "^3.0.1",
+    "sharp": "^0.34.5"
+  }
+}
