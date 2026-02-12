@@ -25,8 +25,6 @@
   <img src="screenshots/desktop_assistant.gif" alt="Windows Cortex Demo" width="700" />
 </p>
 
-> 📹 [Watch the full demo video](screenshots/desktop_asistant.mp4)
-
 ---
 
 ## 📸 Screenshots
