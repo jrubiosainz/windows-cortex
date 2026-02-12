@@ -40,19 +40,17 @@
   </tr>
   <tr>
     <td><img src="screenshots/Desktop_Assistant_3.png" alt="Tools & Capabilities" width="350"/></td>
-    <td><img src="screenshots/Captura3.png" alt="Office Integration" width="350"/></td>
+    <td><img src="screenshots/captura1.png" alt="Screenshot feature" width="350"/></td>
   </tr>
   <tr>
     <td align="center"><em>Multi-model Support — Pick your AI</em></td>
-    <td align="center"><em>Microsoft 365 Integration</em></td>
-  </tr>
-  <tr>
-    <td><img src="screenshots/captura1.png" alt="Screenshot feature" width="350"/></td>
-    <td><img src="screenshots/captura2.png" alt="System control" width="350"/></td>
-  </tr>
-  <tr>
     <td align="center"><em>Screenshot Analysis with Vision</em></td>
-    <td align="center"><em>Full System Control</em></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshots/free_slot.png" alt="Work IQ — Free Slot Finder" width="700"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>Work IQ Integration — Find your next free slot with natural language</em></td>
   </tr>
 </table>
 
