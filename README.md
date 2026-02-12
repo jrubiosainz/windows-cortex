@@ -19,38 +19,58 @@
 
 ---
 
-## 🎬 Demo
-
-<p align="center">
-  <img src="screenshots/desktop_assistant.gif" alt="Windows Cortex Demo" width="700" />
-</p>
-
----
-
 ## 📸 Screenshots
 
 <table>
   <tr>
-    <td><img src="screenshots/Desktop_Assistant_1.png" alt="Main Interface" width="350"/></td>
-    <td><img src="screenshots/Desktop_Assistant_2.png" alt="AI Response" width="350"/></td>
+    <td><img src="screenshots/windows-cortex.png" alt="Work IQ" width="350"/></td>
+    <td><img src="screenshots/free_slot.png" alt="Work IQ — Free Slot Finder" width="350"/></td>
   </tr>
   <tr>
-    <td align="center"><em>Chat Interface — Clean and intuitive</em></td>
-    <td align="center"><em>AI in Action — Smart tool execution</em></td>
+    <td align="center"><em>Work IQ — Create or cancel meetings. Control Teams status.</em></td>
+    <td align="center"><em>Work IQ — Find your next free slot with natural language</em></td>
   </tr>
   <tr>
-    <td><img src="screenshots/Desktop_Assistant_3.png" alt="Tools & Capabilities" width="350"/></td>
-    <td><img src="screenshots/captura1.png" alt="Screenshot feature" width="350"/></td>
+    <td colspan="2" align="center"><img src="screenshots/Win_cortex_gemini_3_pro_whitescreen.png" alt="Multimodal — Gemini 3 Pro" width="700"/></td>
   </tr>
   <tr>
-    <td align="center"><em>Multi-model Support — Pick your AI</em></td>
-    <td align="center"><em>Screenshot Analysis with Vision</em></td>
+    <td colspan="2" align="center"><em>Dark and light mode</em></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="screenshots/free_slot.png" alt="Work IQ — Free Slot Finder" width="700"/></td>
+    <td colspan="2" align="center"><img src="screenshots/open_apps.png" alt="Apps Management" width="700"/></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><em>Work IQ Integration — Find your next free slot with natural language</em></td>
+    <td colspan="2" align="center"><em>Apps Management — Launch, switch, maximize / minimize and control applications</em></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshots/Office_suite.png" alt="Office Suite" width="700"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>Office Suite — Create Word, Excel, and PowerPoint documents with natural language</em></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshots/System_process.png" alt="System Management" width="700"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>System Management — Monitor processes, resources, and system info</em></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshots/whisper.png" alt="Voice Accessibility" width="700"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>Accessibility — Hands-free control using voice input powered by Azure AI Whisper</em></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshots/brightness.png" alt="System Settings" width="700"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>System Settings — Control brightness, volume, and other system preferences</em></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="screenshots/dev_tools.png" alt="Dev Tools & Model Selection" width="700"/></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><em>Dev Tools — Built-in developer tools for troubleshooting and 19+ AI models to choose from</em></td>
   </tr>
 </table>
 
