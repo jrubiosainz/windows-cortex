@@ -171,7 +171,7 @@ async function queryWorkIQ(question: string): Promise<string> {
                 protocolVersion: "2024-11-05",
                 capabilities: {},
                 clientInfo: {
-                    name: "desktop-assistant",
+                    name: "windows-cortex",
                     version: "1.0.0"
                 }
             }

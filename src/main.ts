@@ -138,7 +138,7 @@ function createTray() {
     
     const contextMenu = Menu.buildFromTemplate([
         { 
-            label: "Show Desktop Assistant", 
+            label: "Show Windows Cortex", 
             click: () => {
                 if (mainWindow) {
                     mainWindow.show();
@@ -162,7 +162,7 @@ function createTray() {
         { label: "Quit", click: () => app.quit() }
     ]);
     
-    tray.setToolTip("Desktop Assistant - Ctrl+Shift+Space");
+    tray.setToolTip("Windows Cortex - Ctrl+Shift+Space");
     tray.setContextMenu(contextMenu);
     
     tray.on("click", () => {
@@ -225,7 +225,7 @@ async function createWindow() {
             contextIsolation: false,
         },
         frame: true,
-        title: "Desktop Assistant",
+        title: "Windows Cortex",
     });
 
     mainWindow.loadFile(path.join(__dirname, "../renderer/index.html"));
@@ -341,7 +341,7 @@ async function initializeCopilot() {
                 return { response: "yes" };
             },
             systemMessage: {
-                content: `You are a helpful Desktop Assistant.
+                content: `You are Windows Cortex, an AI-powered Desktop Assistant.
 
 CRITICAL RULES:
 1. ALWAYS respond in the SAME LANGUAGE the user uses. Match their language exactly.
@@ -463,7 +463,7 @@ async function ensureSession(): Promise<boolean> {
                 return { kind: "approved" };
             },
             systemMessage: {
-                content: `You are a helpful Desktop Assistant.
+                content: `You are Windows Cortex, an AI-powered Desktop Assistant.
 
 CRITICAL RULES:
 1. ALWAYS respond in the SAME LANGUAGE the user uses. Match their language exactly.

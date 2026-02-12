@@ -1,4 +1,4 @@
-// Script to generate a simple icon for the Desktop Assistant app
+// Script to generate a simple icon for the Windows Cortex app
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';

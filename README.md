@@ -5,7 +5,7 @@
 <h1 align="center">🧠 Windows Cortex</h1>
 
 <p align="center">
-  <strong>Your AI-Powered Desktop Assistant for Windows</strong><br>
+  <strong>Your AI-Powered Assistant for Windows</strong><br>
   Control your entire PC with natural language — powered by <a href="https://github.com/features/copilot">GitHub Copilot SDK</a>
 </p>
 

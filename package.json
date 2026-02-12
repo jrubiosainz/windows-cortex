@@ -1,7 +1,7 @@
 {
-  "name": "desktop-assistant",
+  "name": "windows-cortex",
   "version": "1.0.0",
-  "description": "AI-powered Desktop Assistant using GitHub Copilot SDK",
+  "description": "AI-powered Windows Cortex Desktop Assistant using GitHub Copilot SDK",
   "type": "module",
   "main": "dist/main.cjs",
   "scripts": {
@@ -14,8 +14,8 @@
     "dist:portable": "npm run build && electron-builder --win portable"
   },
   "build": {
-    "appId": "com.copilot.desktop-assistant",
-    "productName": "Desktop Assistant",
+    "appId": "com.copilot.windows-cortex",
+    "productName": "Windows Cortex",
     "directories": {
       "buildResources": "build-resources",
       "output": "release"
@@ -42,7 +42,7 @@
       "allowToChangeInstallationDirectory": false,
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
-      "shortcutName": "Desktop Assistant"
+      "shortcutName": "Windows Cortex"
     },
     "portable": {
       "artifactName": "${productName}-Portable.${ext}"

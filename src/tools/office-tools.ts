@@ -425,7 +425,7 @@ try {
         # Clear the presence override
         try {
             Invoke-RestMethod -Uri "https://graph.microsoft.com/v1.0/me/presence/clearPresence" -Method POST -Headers $headers -Body '{
-                "sessionId": "desktop-assistant"
+                "sessionId": "windows-cortex"
             }'
             Write-Output "Teams status reset to automatic"
         } catch {
@@ -436,14 +436,14 @@ try {
         ${expirationMinutes ? `
         $expiration = "PT${expirationMinutes}M"
         $body = @{
-            sessionId = "desktop-assistant"
+            sessionId = "windows-cortex"
             availability = "${targetStatus.availability}"
             activity = "${targetStatus.activity}"
             expirationDuration = $expiration
         } | ConvertTo-Json
         ` : `
         $body = @{
-            sessionId = "desktop-assistant"
+            sessionId = "windows-cortex"
             availability = "${targetStatus.availability}"
             activity = "${targetStatus.activity}"
         } | ConvertTo-Json
